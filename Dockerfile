@@ -9,5 +9,5 @@ RUN unzip yooga.zip
 RUN cp -rvf free-yoga-website-template/* .
 RUN rm -rf free-yoga-website-template yooga.zip
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
-EXPOSE 80
+EXPOSE 80 
   
